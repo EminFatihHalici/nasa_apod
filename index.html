@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="./scripts/fetch.js"></script>
-    <title>Document</title>
+    <title>NASA Picture of the Day</title>
 </head>
-<body>
-    <div id="content"></div>
+
+<body class="bg-dark text-light">
+    <div class="container text-center mt-5">
+        <h1>🚀 NASA Picture of the Day</h1>
+
+         <input type="date" class="form-control w-50 mx-auto mt-3">
+         <button class="btn btn-primary mt-3">Load picture</button>
+    </div>
+    <div id="content" class="mt-4"></div>
 </body>
 <script src="./script.js"></script>
+
 </html>
