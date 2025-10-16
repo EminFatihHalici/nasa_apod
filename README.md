@@ -1,5 +1,9 @@
 <h1>🚀 NASA Picture of the Day Web-App</h1>
 
+⚠ Note: The NASA APOD API is currently unavailable due to server issues. ⚠
+
+This project will be updated and resumed once access is restored.
+
 Displays the current NASA picture (or a picture from a selected date) using the NASA APOD API.
 Built with HTML, Bootstrap 5, and JavaScript.
 
